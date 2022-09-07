@@ -1,0 +1,168 @@
+---
+title: 首頁
+layout: ./app/layout.ejs
+engine: ejs
+current: index
+---
+
+<div class="banner md:h-screen h-[396px]">
+    <div class="bg-fixed bg-cover h-[396px] md:h-full hidden md:block" style="background-image: url('https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/banner.png?raw=true')">
+        <div class="flex flex-col justify-center items-end px-8 h-full">
+            <p class="text-primaryDark md:text-4xl leading-normal font-bold">Promise-Desert 2020 早春系列</p>
+            <h2 class="text-primaryDark text-2xl md:text-6xl font-bold mb-1 leading-normal">看得清，才能看得遠</h2>
+            <button class="inine bg-primary hover:bg-primaryDark text-white px-4 md:px-9 lg:px-3 py-2 w-fit">立即購買</button>
+        </div> 
+    </div>
+    <div class="bg-fixed bg-cover h-[396px] md:h-full md:hidden" style="background-image: url('https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-header-sm.png?raw=true')">
+        <div class="flex flex-col justify-center items-end px-8 h-full">
+            <p class="text-primaryDark md:text-4xl leading-normal font-bold">Promise-Desert 2020 早春系列</p>
+            <h2 class="text-primaryDark text-2xl md:text-6xl font-bold mb-1 leading-normal">看得清，才能看得遠</h2>
+            <button class="inine bg-primary hover:bg-primaryDark text-white px-4 md:px-9 lg:px-3 py-2 w-fit">立即購買</button>
+        </div> 
+    </div>
+</div>
+<div class="intro bg-primaryLight">
+    <div class="container py-20">
+        <h2 class="text-primaryDark text-2xl md:text-5xl font-bold text-center font-bold mb-8">用專業的心，做專業的事</h2>
+        <ul class="service grid grid-cols-12 gap-6 px-4 md:px-9 lg:px-3">
+            <li class="flex flex-col items-center col-span-12 md:col-span-6 lg:col-span-3">
+                <img class="mb-6 w-[84px] h-[84px]" src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/102c91f7b3d8e08005073f54b3283b09a18dc427/week3/icon-dollar.svg" alt="">
+                <h3 class="text-2xl text-primaryDark font-bold mb-2">單一價格</h3>
+                <p class="text-base text-black">無論任何度數皆不需追加費用即可擁有適合自己的薄型球面鏡片。</p>
+            </li>
+            <li class="flex flex-col items-center col-span-12 md:col-span-6 lg:col-span-3">
+                <img class="mb-6 w-[84px] h-[84px]" src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/102c91f7b3d8e08005073f54b3283b09a18dc427/week3/icon-clock.svg" alt="">
+                <h3 class="text-2xl text-primaryDark font-bold mb-2">20 分鐘即可取件</h3>
+                <p class="text-base text-black">為了您的寶貴時間著想，以豐富專業知識與技術將結帳到交件的時間縮減至最快 20 分鐘即可完成。</p>
+            </li>
+            <li class="flex flex-col items-center col-span-12 md:col-span-6 lg:col-span-3">
+                <img class="mb-6 w-[84px] h-[84px]" src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/102c91f7b3d8e08005073f54b3283b09a18dc427/week3/icon-heart.svg" alt="">
+                <h3 class="text-2xl text-primaryDark font-bold mb-2">安心售後服務</h3>
+                <p class="text-base text-black">我們提供長達 120 天的保固售後服務，不限會員資格皆享有免費深層保養及專業維修服務。</p>
+            </li>
+            <li class="flex flex-col items-center col-span-12 md:col-span-6 lg:col-span-3">
+                <img class="mb-6 w-[84px] h-[84px]" src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/102c91f7b3d8e08005073f54b3283b09a18dc427/week3/icon-glasses.svg" alt="">
+                <h3 class="text-2xl text-primaryDark font-bold mb-2">關於鏡片</h3>
+                <p class="text-base text-black">使用世界知名頂級品牌，抗UV、防汙鍍膜薄型非球面鏡片。</p>
+            </li>                
+        </ul>
+    </div>
+</div>
+<div class="container py-10 md:py-20">
+    <h2 class="text-primaryDark text-2xl md:text-5xl font-bold text-center mb-6 md:mb-8">經典系列鏡框</h2>
+    <ul class="grid grid-cols-12 mx-auto gap-6">
+        <li class="text-center col-span-12 lg:col-span-4">
+            <img class="h-[316px] md:h-[416px] mx-auto object-cover mb-2" src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-section3-1.png?raw=true" alt="">
+            <h3 class="text-primary font-bold italic text-5xl">OPTICAL</h3>
+        </li>
+        <li class="text-center col-span-12 lg:col-span-4">
+            <img class="h-[316px] md:h-[416px] mx-auto object-cover mb-2" src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-section3-2.png?raw=true" alt="">
+            <h3 class="text-primary font-bold italic text-5xl">SUNGLASSES</h3>
+        </li>
+        <li class="text-center col-span-12 lg:col-span-4">
+            <img class="h-[316px] md:h-[416px] mx-auto object-cover mb-2" src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-section3-3.png?raw=true" alt="">
+            <h3 class="text-primary font-bold italic text-5xl">FUNCTIONAL</h3>
+        </li>
+    </ul>
+</div>
+<!-- 聯名設計鏡框 -->
+<div class="bg-fixed bg-center bg-cover py-20" style="background-image: url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week3/bg.png')">
+    <h2 class="text-white text-5xl font-bold text-center mb-12">聯名設計鏡框</h2>
+    <ul class="grid grid-cols-12 px-4 md:px-9 lg:px-3">
+        <li class="relative col-span-12 lg:col-span-6 lg:col-span-6 mb-6 lg:mb-0">
+            <img class="h-[240px] w-full object-cover" src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-section4-1.png?raw=true" alt="">
+            <div class="absolute bottom-0 bg-white py-2 w-full">
+                <h3 class="text-primary text-5xl italic text-center font-bold">DOUBLE A+</h3>
+            </div>
+        </li>
+        <li class="relative col-span-12 lg:col-span-6 lg:col-span-6">
+            <img class="h-[240px] w-full object-cover" src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-section4-2.png?raw=true" alt="">
+            <div class="absolute bottom-0 bg-white py-2 w-full">
+                <h3 class="text-primary text-5xl italic text-center font-bold">YOUTH</h3>
+            </div>
+        </li>
+    </ul>
+</div>
+<!-- 顧客推薦 -->
+<div class="container py-10 md:py-20">
+    <h2 class="text-primaryDark text-2xl md:text-5xl font-bold text-center mb-6 md:mb-8">顧客推薦</h2>
+    <ul class="grid grid-cols-12 gap-6">
+        <li class="card col-span-12 md:col-span-6 lg:col-span-3 shadow-md">
+            <img class="h-[306px] w-full object-cover" src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-section5-1.png?raw=true" alt="">
+            <div class="cardBody p-4 min-h-[205px] flex flex-col justify-between">
+                <div class="cardTxt">
+                    <p class="mb-2">Jessy</p>
+                    <p>眼鏡品質優良，下次還會想來這邊購買！</p>
+                </div>
+                <p class="text-gray">2021/06/20</p>
+            </div>
+        </li>
+        <li class="card col-span-12 md:col-span-6 lg:col-span-3 shadow-md">
+            <img class="h-[306px] w-full object-cover" src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-section5-2.png?raw=true" alt="">
+            <div class="cardBody p-4 min-h-[205px] flex flex-col justify-between">
+                <div class="cardTxt">
+                    <p class="mb-2">凱倫</p>
+                    <p>做工細緻、鏡架很輕盈，待久也不會覺得有負擔，推薦給大家！</p>
+                </div>
+                <p class="text-gray">2021/04/18</p>
+            </div>
+        </li>
+        <li class="card col-span-12 md:col-span-6 lg:col-span-3 shadow-md">
+            <img class="h-[306px] w-full object-cover" src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-section5-3.png?raw=true" alt="">
+            <div class="cardBody p-4 min-h-[205px] flex flex-col justify-between">
+                <div class="cardTxt">
+                    <p class="mb-2">悠悠</p>
+                    <p>謝謝客服人員的詳細回答，成功買到了喜歡的眼鏡，下次會再回購！</p>
+                </div>
+                <p class="text-gray">2020/6/25</p>
+            </div>
+        </li>
+        <li class="card col-span-12 md:col-span-6 lg:col-span-3 shadow-md">
+            <img class="h-[306px] w-full object-cover" src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-section5-4.png?raw=true" alt="">
+            <div class="cardBody p-4 min-h-[205px] flex flex-col justify-between">
+                <div class="cardTxt">
+                    <p class="mb-2">Kyuan</p>
+                    <p>服務很好，品質沒有任何問題，非常喜歡。</p>
+                </div>
+                <p class="text-gray">2020/10/31</p>
+            </div>
+        </li>
+    </ul>
+</div>
+
+<!-- form -->
+<div class="form bg-primaryLight">      
+    <div class="container py-10 md:py-20 md:w-2/3 lg:w-1/2">
+        <h2 class="text-primaryDark text-5xl font-bold text-center mb-12">聯絡我們</h2>
+        <p class="mb-6 text-xl">我們相當重視您的意見，若您有任何疑問，可先參考「常見問題」，若仍有任何問題，請填妥以下資料，我們會在近期與您聯繫。</p>
+        <div class="grid grid-cols-1 gap-6">
+            <label class="block">
+              <span class="text-gray-700">姓名</span>
+              <input type="text" class="mt-1 block w-full bg-transparent border-black focus:border-primary focus:ring focus:ring-primary focus:ring-opacity-10" placeholder="陳小明">
+            </label>
+            <label class="block">
+                <span class="text-gray-700">連絡電話</span>
+                <input type="tel" class="mt-1 block w-full bg-transparent border-black focus:border-primary focus:ring focus:ring-primary focus:ring-opacity-10" placeholder="0912-345-678">
+              </label>
+            <label class="block">
+              <span class="text-gray-700">電子郵件</span>
+              <input type="email" class="mt-1 block w-full bg-transparent border-black focus:border-primary focus:ring focus:ring-primary focus:ring-opacity-10" placeholder="example@email.com">
+            </label>
+            <label class="block">
+              <span class="text-gray-700">意見反應</span>
+              <textarea class="mt-1 block w-full bg-transparent h-[136px] border-black focus:border-primary focus:ring focus:ring-primary focus:ring-opacity-10" placeholder="請輸入你的意見"></textarea>
+            </label>
+            <div class="block">
+              <div class="mt-2">
+                <div>
+                  <label class="inline-flex items-center">
+                    <input type="checkbox" class="text-primary border-primary focus:border-primary focus:ring focus:ring-primary focus:ring-opacity-10">
+                    <span class="ml-2">我同意隱私權政策，並同意依隱私權政策中所述的方式處理自己的資料。</span>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <button class="bg-primary hover:bg-primaryDark text-white py-4 ">確認送出</button>
+          </div>
+    </div>
+</div>
